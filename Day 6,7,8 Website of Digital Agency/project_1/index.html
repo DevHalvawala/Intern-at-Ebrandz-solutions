@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- <link href="style.css" rel="stylesheet" type="text/css"> -->
+</head>
+
+<body>
+
+    <!-- header section -->
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg> -->
+                <nav class="navbar bg-light">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <img src="/assets/images/logo.png" alt="" width="175" height="175">
+                        </a>
+                    </div>
+                </nav>
+                <!-- <span class="ml-3 text-xl">your brand</span> -->
+            </a>
+            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900 active cursor-pointer" href="#">Home</a>
+                <a class="mr-5 hover:text-gray-900 active cursor-pointer" href="#">Products</a>
+                <a class="mr-5 hover:text-gray-900 active cursor-pointer" href="#">Our Work</a>
+                <a class="mr-5 hover:text-gray-900 active cursor-pointer" href="#">Blogs</a>
+            </nav>
+            <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Say Hi!
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+    </header>
+
+    <!-- hero section -->
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">Digital
+                    <br class="hidden lg:inline-block font-extrabold">Agency
+                </h1>
+                <p class="mb-8 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo tincidunt ipsum sit fringilla. Eget amet dui viverra at egestas a tellus consectetur arcu.Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed
+                    tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray. </p>
+                <div class="flex justify-center">
+                    <button class="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded-3xl text-lg">Get Started</button>
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="/assets/images/Group 0.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/assets/images/symbols-removebg-preview.png">
+                        <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
+                        <p class="text-gray-500">Senior Product Designer</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/assets/images/symbols-removebg-preview.png">
+                        <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">ALPER KAMU</h2>
+                        <p class="text-gray-500">UI Develeoper</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/assets/images/symbols-removebg-preview.png">
+                        <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
+                        <p class="text-gray-500">CTO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Services section -->
+    <section class="text-gray-600 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Services We Provide</h1>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+
+                        <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/assets/images/symbols-removebg-preview.png">
+                        <h1 class="text-3xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Design</h1>
+                        <p class="flex items-center text-gray-600 mb-2">
+
+                            <path d="M20 6L9 17l-5-5"></path>
+
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere id lectus mauris felis sit integer nunc dignissim risus. Pellentesque quam interdum congue potenti massa dolor.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div class="h-full p-6 rounded-lg border-2 bg-green-500 flex flex-col relative overflow-hidden">
+                        <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/assets/images/symbols-removebg-preview.png">
+                        <h1 class="text-3xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                            <span>Branding</span>
+
+                        </h1>
+                        <p class="flex items-center text-lime-600 mb-2">
+
+
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere id lectus mauris felis sit integer nunc dignissim risus. Pellentesque quam interdum congue potenti massa dolor.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                        <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/assets/images/symbols-removebg-preview.png">
+                        <h1 class="text-3xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                            <span>UI/UX</span>
+                        </h1>
+                        <p class="flex items-center text-gray-600 mb-2">
+
+
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere id lectus mauris felis sit integer nunc dignissim risus. Pellentesque quam interdum congue potenti massa dolor.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                        <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/assets/images/symbols-removebg-preview.png">
+                        <h1 class="text-3xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                            <span>Logo</span>
+                        </h1>
+                        <p class="flex items-center text-gray-600 mb-2">
+
+
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere id lectus mauris felis sit integer nunc dignissim risus. Pellentesque quam interdum congue potenti massa dolor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Content section -->
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <img class="object-cover object-center rounded" alt="hero" src="/assets/images/image 4.svg">
+            </div>
+            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-semibold text-gray-900">
+                    We craft experinces,
+                    <br class="hidden lg:inline-block">business to help each our customer
+                </h1>
+                <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.Justo tincidunt
+                    ipsum sit fringilla. Eget amet dui viverra at egestas a tellus consectetur arcu.</p>
+                <div class="flex justify-center">
+                    <button class="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded-3xl text-lg">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Content section 2 -->
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-semibold text-gray-900">
+                    Business has only two Functions -
+                    <br class="hidden lg:inline-block font-extrabold">Marketing and Innovaton
+                </h1>
+                <p class="mb-8 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo tincidunt ipsum sit fringilla. Eget amet dui viverra at egestas a tellus consectetur arcu.Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed,
+                    Justo tincidunt ipsum sit fringilla. Eget amet dui viverra at egestas a tellus consectetur arcu.Justo tincidunt ipsum sit fringilla. Eget amet dui viverra at egestas a tellus consectetur arcu.
+                </p>
+                <div class="flex justify-center">
+                    <button class="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded-3xl text-lg">Learn More</button>
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="/assets/images/image 3.svg">
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Content Section 3 -->
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="/assets/images/sub group 5.jpg">
+            </div>
+        </div>
+    </section>
+    <!-- <section class="text-gray-600 body-font"> -->
+    <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">What our client says
+            </h1>
+            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ultrices ac pharetra, bibendum.</p>
+        </div>
+        <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/3">
+                <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+                    <div class="flex items-center mb-3">
+                        <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                        </div>
+                        <h2 class="text-gray-900 text-lg title-font font-medium">John Doe <br>New York
+                        </h2>
+                    </div>
+                    <div class="flex-grow">
+                        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+                <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+                    <div class="flex items-center mb-3">
+                        <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                        </div>
+                        <h2 class="text-gray-900 text-lg title-font font-medium">John Doe <br>New York
+                        </h2>
+                    </div>
+                    <div class="flex-grow">
+                        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+                <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+                    <div class="flex items-center mb-3">
+                        <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                        </div>
+                        <h2 class="text-gray-900 text-lg title-font font-medium">John Doe <br>New York
+                        </h2>
+                    </div>
+                    <div class="flex-grow">
+                        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/images/logo.png" alt="" width="175" height="175">
+                </a>
+                <!-- <span class="ml-3 text-xl">Tailblocks</span> -->
+                </a>
+                <p class="mt-2 text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo tincidunt ipsum sit fringilla. Eget amet dui viverra at egestas a tellus consectetur arcu. </p>
+            </div>
+            <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">USE CASES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Marketing</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Social Media</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Publishers</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Agency</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Corporate</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Enterprise</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">RESOURCES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Lcarubg Center</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Customers</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Video Showcases</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">COMPANY</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">About Us</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Jobs</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Press</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-100">
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="text-gray-500 text-sm text-center sm:text-left">©twitter —
+                    <a href="https://twitter.com" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@devhalvawala15</a>
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+              <a class="text-gray-500">
+                  <button href="https://facebook.com">
+                <img src="/assets/images/Facebook.jpg" alt=""width="50" height="50"></button>
+              </a>
+              <a class="ml-3 text-gray-500">
+                  <button href="https://twitter.com">
+                <img src="/assets/images/Twitter.jpg" alt=""width="50" height="50"></button>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <button href="https://instagram.com">
+                <img src="/assets/images/instagram.png" alt=""width="50" height="50"></button>
+              </a>
+              <a class="ml-3 text-gray-500">
+                  <button href="https://linkedin.com">
+                <img src="/assets/images/LinkedIn.jpg" alt=""width="50" height="50"></button>
+              </a>
+            </span>
+            </div>
+        </div>
+    </footer>
+    <!-- <div class="bg-gray-100">
+        <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+        </div>
+    </div> -->
+
+    <!-- </section> -->
+
+
+
+    <!-- <header class="wrapper">
+
+    </header>
+    <div class="wrapper">
+        <section class="">
+            <div class="container">
+               
+            </div>
+        </section>
+    </div>
+    <footer class="wrapper">
+
+    </footer> -->
+    <script src="/assets/js/home.js"></script>
+</body>
+
+</html>
