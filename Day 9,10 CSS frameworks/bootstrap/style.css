@@ -1,0 +1,2252 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+}
+
+.v13_2 {
+    width: 100%;
+    height: 7000px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v13_8 {
+    width: 472px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 1305px;
+    left: 610px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v13_9 {
+    width: 498px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 1362px;
+    left: 632px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v13_10 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/v13_10.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1260px;
+    left: 883px;
+    overflow: hidden;
+}
+
+.v13_11 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/v13_11.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1260px;
+    left: 833px;
+    overflow: hidden;
+}
+
+.v19_3 {
+    width: 289px;
+    height: 289px;
+    background: url("../images/v19_3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1310px;
+    left: 1184px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v19_2 {
+    width: 289px;
+    height: 320px;
+    background: url("../images/v19_2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1666px;
+    left: 257px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v13_12 {
+    width: 294px;
+    height: 384px;
+    background: rgba(205, 204, 204, 1);
+    opacity: 1;
+    position: absolute;
+    top: 1442px;
+    left: 402px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.v13_13 {
+    width: 294px;
+    height: 384px;
+    background: rgba(205, 204, 204, 1);
+    opacity: 1;
+    position: absolute;
+    top: 1442px;
+    left: 724px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.v13_14 {
+    width: 294px;
+    height: 384px;
+    background: rgba(205, 204, 204, 1);
+    opacity: 1;
+    position: absolute;
+    top: 1442px;
+    left: 1046px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.v13_15 {
+    width: 222px;
+    height: 333px;
+    background: url("../images/v13_15.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1468px;
+    left: 440px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v13_16 {
+    width: 222px;
+    height: 333px;
+    background: url("../images/v13_16.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1468px;
+    left: 762px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v13_17 {
+    width: 222px;
+    height: 333px;
+    background: url("../images/v13_17.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1468px;
+    left: 1084px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v13_18 {
+    width: 118px;
+    height: 202px;
+    background: url("../images/v13_18.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1492px;
+    left: 492px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v13_19 {
+    width: 118px;
+    height: 202px;
+    background: url("../images/v13_19.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1492px;
+    left: 814px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v13_20 {
+    width: 118px;
+    height: 202px;
+    background: url("../images/v13_20.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1492px;
+    left: 1136px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v13_21 {
+    width: 120px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 1694px;
+    left: 490px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v13_22 {
+    width: 120px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 1694px;
+    left: 812px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v13_23 {
+    width: 120px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 1694px;
+    left: 1134px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v48_35 {
+    width: 100%;
+    height: 611px;
+    background: url("../images/v48_35.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3132px;
+    left: 312px;
+    overflow: hidden;
+}
+
+.v31_9 {
+    width: 472px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 50px;
+    left: 465px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v31_10 {
+    width: 498px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 107px;
+    left: 329px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v31_11 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/v31_11.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 578px;
+    overflow: hidden;
+}
+
+.v31_12 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/v31_12.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 528px;
+    overflow: hidden;
+}
+
+.v31_13 {
+    width: 230px;
+    height: 398px;
+    background: rgba(217, 217, 217, 0.5199999809265137);
+    opacity: 1;
+    position: absolute;
+    top: 213px;
+    left: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v34_2 {
+    width: 230px;
+    height: 288px;
+    background: url("../images/v34_2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 213px;
+    left: 5px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v35_18 {
+    width: 230px;
+    height: 398px;
+    background: rgba(217, 217, 217, 1);
+    opacity: 1;
+    position: absolute;
+    top: 213px;
+    left: 281px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v35_33 {
+    width: 230px;
+    height: 288px;
+    background: url("../images/v35_33.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 213px;
+    left: 284px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v35_25 {
+    width: 230px;
+    height: 398px;
+    background: rgba(217, 217, 217, 1);
+    opacity: 1;
+    position: absolute;
+    top: 213px;
+    left: 552px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v35_19 {
+    width: 230px;
+    height: 288px;
+    background: url("../images/v35_19.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 213px;
+    left: 552px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v35_32 {
+    width: 230px;
+    height: 398px;
+    background: rgba(217, 217, 217, 1);
+    opacity: 1;
+    position: absolute;
+    top: 213px;
+    left: 833px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v36_3 {
+    width: 230px;
+    height: 288px;
+    background: url("../images/v36_3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 213px;
+    left: 831px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v34_4 {
+    width: 128px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 510px;
+    left: 51px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v35_13 {
+    width: 128px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 510px;
+    left: 327px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v35_20 {
+    width: 128px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 510px;
+    left: 598px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v35_27 {
+    width: 128px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 510px;
+    left: 879px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v34_7 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 560px;
+    left: 144px;
+    border-radius: 50%;
+}
+
+.v35_14 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 560px;
+    left: 420px;
+    border-radius: 50%;
+}
+
+.v35_21 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 560px;
+    left: 691px;
+    border-radius: 50%;
+}
+
+.v35_28 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 560px;
+    left: 972px;
+    border-radius: 50%;
+}
+
+.v34_8 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 560px;
+    left: 70px;
+    border-radius: 50%;
+}
+
+.v35_15 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 560px;
+    left: 346px;
+    border-radius: 50%;
+}
+
+.v35_22 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 560px;
+    left: 617px;
+    border-radius: 50%;
+}
+
+.v35_29 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 560px;
+    left: 898px;
+    border-radius: 50%;
+}
+
+.v34_5 {
+    width: 75px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 560px;
+    left: 82px;
+    overflow: hidden;
+}
+
+.v35_16 {
+    width: 75px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 560px;
+    left: 358px;
+    overflow: hidden;
+}
+
+.v35_23 {
+    width: 75px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 560px;
+    left: 629px;
+    overflow: hidden;
+}
+
+.v35_30 {
+    width: 75px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 560px;
+    left: 910px;
+    overflow: hidden;
+}
+
+.v34_11 {
+    width: 73px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 562px;
+    left: 88px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v35_17 {
+    width: 73px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 562px;
+    left: 364px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v35_24 {
+    width: 73px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 562px;
+    left: 635px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v35_31 {
+    width: 73px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 562px;
+    left: 916px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v48_36 {
+    width: 100%;
+    height: 890px;
+    background: url("../images/v48_36.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3863px;
+    left: 1px;
+    overflow: hidden;
+}
+
+.v37_8 {
+    width: 100%;
+    height: 890px;
+    background: rgba(177, 233, 193, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v37_10 {
+    width: 266px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 124px;
+    left: 313px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v37_12 {
+    width: 287px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 124px;
+    left: 1102px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v37_11 {
+    width: 266px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 124px;
+    left: 677px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v37_13 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/v37_13.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 8px;
+    left: 891px;
+    overflow: hidden;
+}
+
+.v37_14 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/v37_14.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 8px;
+    left: 841px;
+    overflow: hidden;
+}
+
+.v39_2 {
+    width: 230px;
+    height: 182px;
+    background: url("../images/v39_2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 190px;
+    left: 318px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v39_9 {
+    width: 230px;
+    height: 182px;
+    background: url("../images/v39_9.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 535px;
+    left: 318px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v39_3 {
+    width: 220px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 389px;
+    left: 318px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v39_17 {
+    width: 220px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 388px;
+    left: 687px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v40_2 {
+    width: 220px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 381px;
+    left: 1100px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v40_9 {
+    width: 220px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 740px;
+    left: 1102px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v39_24 {
+    width: 220px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 742px;
+    left: 687px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v39_10 {
+    width: 220px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 734px;
+    left: 318px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v39_4 {
+    width: 128px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 428px;
+    left: 364px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v39_18 {
+    width: 128px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 427px;
+    left: 733px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v40_3 {
+    width: 128px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 420px;
+    left: 1146px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v40_10 {
+    width: 128px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 779px;
+    left: 1148px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v39_25 {
+    width: 128px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 781px;
+    left: 733px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v39_11 {
+    width: 128px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 773px;
+    left: 364px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v39_5 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 454px;
+    left: 452px;
+    border-radius: 50%;
+}
+
+.v39_19 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 453px;
+    left: 821px;
+    border-radius: 50%;
+}
+
+.v40_4 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 446px;
+    left: 1234px;
+    border-radius: 50%;
+}
+
+.v40_11 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 805px;
+    left: 1236px;
+    border-radius: 50%;
+}
+
+.v39_26 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 807px;
+    left: 821px;
+    border-radius: 50%;
+}
+
+.v39_12 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 799px;
+    left: 452px;
+    border-radius: 50%;
+}
+
+.v39_6 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 454px;
+    left: 378px;
+    border-radius: 50%;
+}
+
+.v39_20 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 453px;
+    left: 747px;
+    border-radius: 50%;
+}
+
+.v40_5 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 446px;
+    left: 1160px;
+    border-radius: 50%;
+}
+
+.v40_12 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 805px;
+    left: 1162px;
+    border-radius: 50%;
+}
+
+.v39_27 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 807px;
+    left: 747px;
+    border-radius: 50%;
+}
+
+.v39_13 {
+    width: 25px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 799px;
+    left: 378px;
+    border-radius: 50%;
+}
+
+.v39_7 {
+    width: 75px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 454px;
+    left: 390px;
+    overflow: hidden;
+}
+
+.v39_21 {
+    width: 75px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 453px;
+    left: 759px;
+    overflow: hidden;
+}
+
+.v40_6 {
+    width: 75px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 446px;
+    left: 1172px;
+    overflow: hidden;
+}
+
+.v40_13 {
+    width: 75px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 805px;
+    left: 1174px;
+    overflow: hidden;
+}
+
+.v39_28 {
+    width: 75px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 807px;
+    left: 759px;
+    overflow: hidden;
+}
+
+.v39_14 {
+    width: 75px;
+    height: 25px;
+    background: rgba(134, 132, 239, 1);
+    opacity: 1;
+    position: absolute;
+    top: 799px;
+    left: 390px;
+    overflow: hidden;
+}
+
+.v39_8 {
+    width: 73px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 456px;
+    left: 396px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v39_22 {
+    width: 73px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 455px;
+    left: 765px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v40_7 {
+    width: 73px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 448px;
+    left: 1178px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v40_14 {
+    width: 73px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 807px;
+    left: 1180px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v39_29 {
+    width: 73px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 809px;
+    left: 765px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v39_23 {
+    width: 230px;
+    height: 182px;
+    background: url("../images/v39_23.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 190px;
+    left: 687px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v39_30 {
+    width: 230px;
+    height: 182px;
+    background: url("../images/v39_30.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 544px;
+    left: 687px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v39_31 {
+    width: 230px;
+    height: 182px;
+    background: url("../images/v39_31.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 188px;
+    left: 1102px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v40_15 {
+    width: 230px;
+    height: 182px;
+    background: url("../images/v40_15.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 547px;
+    left: 1104px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v39_15 {
+    width: 73px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 801px;
+    left: 396px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v48_37 {
+    width: 100%;
+    height: 890px;
+    background: url("../images/v48_37.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4756px;
+    left: 1px;
+    overflow: hidden;
+}
+
+.v41_16 {
+    width: 472px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 113px;
+    left: 632px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v41_17 {
+    width: 498px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 170px;
+    left: 640px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v41_18 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/v41_18.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 63px;
+    left: 887px;
+    overflow: hidden;
+}
+
+.v41_19 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/v41_19.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 63px;
+    left: 837px;
+    overflow: hidden;
+}
+
+.v41_20 {
+    width: 100%;
+    height: 890px;
+    background: url("../images/v41_20.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v42_21 {
+    width: 634px;
+    height: 342px;
+    background: rgba(217, 217, 217, 1);
+    opacity: 1;
+    position: absolute;
+    top: 228px;
+    left: 548px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.v43_2 {
+    width: 634px;
+    height: 228px;
+    background: url("../images/v43_2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 228px;
+    left: 548px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v43_3 {
+    width: 552px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 471px;
+    left: 594px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v43_4 {
+    width: 75px;
+    height: 75px;
+    background: url("../images/v43_4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 306px;
+    left: 446px;
+    overflow: hidden;
+}
+
+.v43_5 {
+    width: 75px;
+    height: 75px;
+    background: url("../images/v43_5.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 306px;
+    left: 1209px;
+    overflow: hidden;
+}
+
+.v48_40 {
+    width: 100%;
+    height: 840px;
+    background: url("../images/v48_40.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 6152px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v46_10 {
+    width: 100%;
+    height: 840px;
+    background: rgba(253, 255, 209, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    overflow: hidden;
+}
+
+.v47_14 {
+    width: 188px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 52px;
+    left: 598px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v47_15 {
+    width: 202px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 52px;
+    left: 874px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v47_16 {
+    width: 148px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 52px;
+    left: 1150px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v47_20 {
+    width: 204px;
+    color: rgba(4, 4, 4, 1);
+    position: absolute;
+    top: 146px;
+    left: 598px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v47_21 {
+    width: 65px;
+    color: rgba(4, 4, 4, 1);
+    position: absolute;
+    top: 146px;
+    left: 874px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v47_22 {
+    width: 204px;
+    color: rgba(4, 4, 4, 1);
+    position: absolute;
+    top: 146px;
+    left: 1150px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v47_23 {
+    width: 23px;
+    height: 23px;
+    background: url("../images/v47_23.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 186px;
+    left: 574px;
+    overflow: hidden;
+}
+
+.v47_24 {
+    width: 23px;
+    height: 23px;
+    background: url("../images/v47_24.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 228px;
+    left: 574px;
+    overflow: hidden;
+}
+
+.v47_27 {
+    width: 225px;
+    height: 225px;
+    background: url("../images/v47_27.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 52px;
+    left: 316px;
+    overflow: hidden;
+}
+
+.v47_31 {
+    width: 100%;
+    height: 588px;
+    background: url("../images/v47_31.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 252px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v48_34 {
+    width: 100%;
+    height: 1117px;
+    background: url("../images/v48_34.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1924px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v23_2 {
+    width: 100%;
+    height: 890px;
+    background: rgba(247, 219, 236, 1);
+    opacity: 1;
+    position: absolute;
+    top: 227px;
+    left: 1px;
+    overflow: hidden;
+}
+
+.v23_3 {
+    width: 472px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 345px;
+    left: 615px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v23_4 {
+    width: 498px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 402px;
+    left: 637px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v23_5 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/v23_5.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 300px;
+    left: 888px;
+    overflow: hidden;
+}
+
+.v23_6 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/v23_6.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 300px;
+    left: 838px;
+    overflow: hidden;
+}
+
+.v25_11 {
+    width: 819px;
+    height: 792px;
+    background: url("../images/v25_11.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 325px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v25_13 {
+    width: 343px;
+    height: 515px;
+    background: url("../images/v25_13.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 446px;
+    left: 690px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v25_17 {
+    width: 266px;
+    height: 289px;
+    background: url("../images/v25_17.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 446px;
+    left: 363px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v25_18 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/v25_18.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 470px;
+    left: 547px;
+    overflow: hidden;
+}
+
+.v25_19 {
+    width: 73px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 520px;
+    left: 547px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v25_16 {
+    width: 73px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 520px;
+    left: 961px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v26_23 {
+    width: 266px;
+    height: 289px;
+    background: url("../images/v26_23.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 672px;
+    left: 1099px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v26_21 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/v26_21.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 679px;
+    left: 1283px;
+    overflow: hidden;
+}
+
+.v26_22 {
+    width: 73px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 735px;
+    left: 1283px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v26_25 {
+    width: 500px;
+    height: 500px;
+    background: url("../images/v26_25.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 1467px;
+    overflow: hidden;
+}
+
+.v25_15 {
+    width: 50px;
+    height: 50px;
+    background: url("../images/v25_15.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 470px;
+    left: 961px;
+    overflow: hidden;
+}
+
+.v25_12 {
+    width: 343px;
+    height: 515px;
+    background: rgba(205, 204, 204, 1);
+    opacity: 1;
+    position: absolute;
+    top: 446px;
+    left: 690px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.v55_46 {
+    width: 100%;
+    height: 500px;
+    background: rgba(245, 245, 245, 1);
+    opacity: 1;
+    position: absolute;
+    top: 5652px;
+    left: 3px;
+    overflow: hidden;
+}
+
+.v55_47 {
+    width: 120px;
+    height: 120px;
+    background: url("../images/v55_47.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 5704px;
+    left: 366px;
+    overflow: hidden;
+}
+
+.name {
+    color: #fff;
+}
+
+.name {
+    color: #fff;
+}
+
+.name {
+    color: #fff;
+}
+
+.v55_51 {
+    width: 120px;
+    height: 120px;
+    background: url("../images/v55_51.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 5704px;
+    left: 642px;
+    overflow: hidden;
+}
+
+.v55_52 {
+    width: 120px;
+    height: 120px;
+    background: url("../images/v55_52.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 5704px;
+    left: 920px;
+    overflow: hidden;
+}
+
+.v55_53 {
+    width: 120px;
+    height: 120px;
+    background: url("../images/v55_53.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 5704px;
+    left: 1191px;
+    overflow: hidden;
+}
+
+.v55_54 {
+    width: 220px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 5845px;
+    left: 360px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    opacity: 1;
+    text-align: left;
+}
+
+.v55_55 {
+    width: 220px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 5854px;
+    left: 636px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    opacity: 1;
+    text-align: left;
+}
+
+.v55_56 {
+    width: 220px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 5845px;
+    left: 910px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    opacity: 1;
+    text-align: left;
+}
+
+.v55_57 {
+    width: 220px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 5845px;
+    left: 1185px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    opacity: 1;
+    text-align: left;
+}
+
+.v30_4 {
+    width: 100%;
+    height: 100%;
+    background: rgba(245, 246, 223, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v30_3 {
+    width: 100%;
+    height: 100%;
+    background: url("../images/v30_3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v13_4 {
+    width: 225px;
+    height: 225px;
+    background: url("../images/v13_4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 322px;
+    overflow: hidden;
+}
+
+.v13_5 {
+    width: 139px;
+    color: rgba(212, 175, 55, 1);
+    position: absolute;
+    top: 225px;
+    left: 365px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v13_7 {
+    width: 38px;
+    height: 38px;
+    background: url("../images/v13_7.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 68px;
+    left: 1375px;
+    overflow: hidden;
+}
+
+.v13_6 {
+    width: 82px;
+    color: rgba(212, 175, 55, 1);
+    position: absolute;
+    top: 83px;
+    left: 593px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v69_8 {
+    width: 95px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 6411px;
+    left: 874px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v67_9 {
+    width: 138px;
+    color: rgba(212, 175, 55, 1);
+    position: absolute;
+    top: 83px;
+    left: 777px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v67_8 {
+    width: 74px;
+    color: rgba(212, 175, 55, 1);
+    position: absolute;
+    top: 83px;
+    left: 685px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v69_2 {
+    width: 71px;
+    color: rgba(212, 175, 55, 1);
+    position: absolute;
+    top: 83px;
+    left: 1237px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v67_14 {
+    width: 115px;
+    color: rgba(212, 175, 55, 1);
+    position: absolute;
+    top: 83px;
+    left: 1049px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v67_10 {
+    width: 78px;
+    color: rgba(212, 175, 55, 1);
+    position: absolute;
+    top: 83px;
+    left: 961px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v69_7 {
+    width: 60px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 6380px;
+    left: 874px;
+    font-family: Tiro Kannada;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
