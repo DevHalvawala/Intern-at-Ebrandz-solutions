@@ -1,2 +1,2 @@
 # Intern-at-Ebrandz-solutions
-Internsip of Web Designing, UI/UX Designing and Web Development
+Internship of Web Designing, UI/UX Designing and Web Development
