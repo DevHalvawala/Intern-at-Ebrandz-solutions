@@ -20,3 +20,10 @@ Internship of Web Designing, UI/UX Designing and Web Development
    won't touch programming in Javascript. They also use tools like Photoshop to create beautiful website 
    designs for Frontend Developers to build, or they may design interfaces using no-code website builders
    e.g. Suarespace. The role tends to focus more on appearence & branding than UX, but can vary!
+   
+5) Frontend Developer: This role focus on building! they are generally provided with designs from the Design
+   Team (incl. UI & UX), and it is then their job to bring the designs to life through code (using Javascript 
+   & associated frameworks), make them interactive & ensure they have the full intended functionality! They
+   sit between the Design and Backend Team, as they also work to ensure that any data required within the 
+   components is passed safely & correctly to and from the backend of the applicattion, as well as any 
+   external APIs etc.
